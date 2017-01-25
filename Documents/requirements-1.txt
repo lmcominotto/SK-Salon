@@ -1,0 +1,13 @@
+Requirements:
+
+The website shall:
+
+1.  contain an inventory database that is editable by customer and includes a reports page
+2.  contain an administrative portal that the customer can use to edit page content without code
+3. contain the following internal pages:  Home, Stylists, About Us, Services, Appointment Page, Inventory, Product Page (about us), Photo Gallery, contact page
+4.  incorporate the colors discussed in customer meeting:  navy, teal, platinum, silver, gray
+5. incorporate a scrolling carousel on the front page for featured pictures.
+6. incorporate existing social media (Facebook/Instagram) into the webpage.
+
+If time allows:
+1. Incorporate a scheduler for client scheduling 
