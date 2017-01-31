@@ -1,0 +1,99 @@
+.outerContainer {
+        font:  17px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+        background-color: #ACB5C9;
+        min-height: 100%;
+        width:100%;
+}
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+/* Remove margins and padding from the list, and add a background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #001040;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #F5F4EF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #00707A;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+ /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+.content{
+  max-width:1024px;
+  margin:auto;
+  background-color:#eeeeee;
+}
+
+.fb{
+  float:left;
+}
+
+.main{
+  padding-right:
+}
+
+.footer{
+  clear:both;
+  background-color: #001040;
+  padding: 200;
+  float: bottom;
+}
+
+p.bottomaddress {
+  font:  17px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  color: #F5F4EF;
+  font-size: 10px;
+  text-align: center;
+}
