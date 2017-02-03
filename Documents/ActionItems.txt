@@ -1,0 +1,27 @@
+Action Items to date 2/9/17
+
+Front Page
+	Mission:
+		-Responsive interface
+		-Clean design
+		-Integrates prefered colors
+		-Includes social media embedded
+		-Includes picture carousel
+		
+	Action items:
+	(x) Research CSS needed for social media and carousel implementation
+	() Create the following pages:
+		-index
+		-Stylists
+		-About Us (Products)
+		-Services
+		-Contact Us
+		-Appointments
+		-Photo Gallery
+		-Admin Portal/Inventory (not on main page)
+		
+	(x) Create a design document for web layout
+	(x) Create a carousel on the index
+	( ) Create a responsive webpage
+	( ) Hook up main page to backend
+		
